@@ -32,6 +32,12 @@
   'temp':
     'prefix': 'temp'
     'body': '# TEMP: $0'
+  'optimize':
+    'prefix': 'opt'
+    'body': '# OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warn'
+    'body': '# WARNING: $0'
 
 '.text.haml':
   'todo':
@@ -67,6 +73,12 @@
   'temp':
     'prefix': 'temp'
     'body': '-# TEMP: $0'
+  'optimize':
+    'prefix': 'opt'
+    'body': '-# OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warn'
+    'body': '-# WARNING: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -102,6 +114,12 @@
   'temp':
     'prefix': 'temp'
     'body': '<%# TEMP: $0 %>'
+  'optimize':
+    'prefix': 'opt'
+    'body': '<%# OPTIMIZE: $0 %>'
+  'warning':
+    'prefix': 'warn'
+    'body': '<%# WARNING: $0 %>'
 
 '.text.html.ruby .meta,tag, .text.erb .meta.tag':
   'todo':
@@ -126,6 +144,10 @@
     'prefix': 'combak'
   'temp':
     'prefix': 'temp'
+  'optimize':
+    'prefix': 'opt'
+  'warning':
+    'prefix': 'warn'
 
 '.html.basic':
   'todo':
@@ -161,6 +183,12 @@
   'temp':
     'prefix': 'temp'
     'body': '<!-- TEMP: $0 -->'
+  'optimize':
+    'prefix': 'opt'
+    'body': '<!-- OPTIMIZE: $0 -->'
+  'warning':
+    'prefix': 'warn'
+    'body': '<!-- WARNING: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -185,6 +213,10 @@
     'prefix': 'combak'
   'temp':
     'prefix': 'temp'
+  'optimize':
+    'prefix': 'opt'
+  'warning':
+    'prefix': 'warn'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -220,6 +252,12 @@
   'temp':
     'prefix': 'temp'
     'body': '// TEMP: $0'
+  'optimize':
+    'prefix': 'opt'
+    'body': '// OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warn'
+    'body': '// WARNING: $0'
 
 '.source.css':
   'todo':
@@ -255,6 +293,12 @@
   'temp':
     'prefix': 'temp'
     'body': '/* TEMP: $0 */'
+  'optimize':
+    'prefix': 'opt'
+    'body': '/* OPTIMIZE: $0 */'
+  'warning':
+    'prefix': 'warn'
+    'body': '#/* WARNING: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -279,6 +323,10 @@
     'prefix': 'combak'
   'temp':
     'prefix': 'temp'
+  'optimize':
+    'prefix': 'opt'
+  'warning':
+    'prefix': 'warn'
 
 '.text.html.php':
   'todo':
@@ -314,3 +362,9 @@
   'temp':
     'prefix': 'temp'
     'body': '<?php // COMBAK: $1 ?>$0'
+  'optimize':
+    'prefix': 'opt'
+    'body': '<?php // OPTIMIZE: $1 ?>$0'
+  'warning':
+    'prefix': 'warn'
+    'body': '<?php // WARNING: $01 ?>$0'
